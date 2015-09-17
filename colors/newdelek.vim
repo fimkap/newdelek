@@ -24,27 +24,35 @@ hi LineNr     ctermfg=Brown	   guifg=Brown
 hi ModeMsg    cterm=bold	   gui=bold
 hi MoreMsg    ctermfg=DarkGreen    gui=bold guifg=SeaGreen
 hi NonText    ctermfg=Blue	   gui=bold guifg=gray guibg=white
-hi Pmenu      ctermfg=Black	   ctermbg=75  guifg=DarkGrey  guibg=White
+hi Pmenu      ctermfg=Black	   ctermbg=75  guifg=gray15  guibg=White
 hi PmenuSel   ctermfg=White	   ctermbg=DarkBlue  guifg=White  guibg=DarkBlue
 hi Question   ctermfg=DarkGreen    gui=bold guifg=SeaGreen
 hi Search     ctermfg=NONE	   ctermbg=Yellow guibg=#fcfcaa guifg=NONE
 hi SpecialKey ctermfg=DarkBlue	   guifg=Blue
-hi StatusLine cterm=bold	   ctermbg=blue ctermfg=yellow guibg=DarkBlue guifg=White
-hi StatusLineNC	cterm=bold	   ctermbg=blue ctermfg=White  guibg=DarkBlue guifg=#fafafa
+hi StatusLine cterm=bold	   ctermbg=White ctermfg=DarkBlue guibg=DarkBlue guifg=White
+hi StatusLineNC	cterm=bold	   ctermbg=White ctermfg=Blue  guibg=DarkBlue guifg=#fafafa
 hi Title      ctermfg=DarkMagenta  gui=bold guifg=Magenta
 hi VertSplit  cterm=reverse ctermfg=White   gui=reverse guifg=White
 hi Visual     ctermbg=NONE	   cterm=reverse gui=reverse guifg=Grey guibg=fg
 hi VisualNOS  cterm=underline,bold gui=underline,bold
 hi WarningMsg ctermfg=DarkRed	   guifg=Red
 hi WildMenu   ctermfg=Black	   ctermbg=Yellow    guibg=Yellow guifg=Black
+hi SignColumn ctermbg=White guibg=White
 
 " syntax highlighting
 hi Comment    cterm=NONE ctermfg=Green     gui=italic guifg=SeaGreen4
-hi Constant   cterm=NONE ctermfg=DarkGreen   gui=NONE guifg=green3
-hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4
+hi Constant   cterm=NONE ctermfg=201   guibg=White guifg=DarkGreen
+"hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4
+hi Identifier cterm=NONE ctermfg=18    gui=NONE guifg=#000087
 hi PreProc    cterm=NONE ctermfg=DarkMagenta gui=NONE guifg=magenta3
 hi Special    cterm=NONE ctermfg=Brown    gui=NONE guifg=deeppink
-hi Statement  cterm=bold ctermfg=Blue	     gui=bold guifg=blue
-hi Type	      cterm=NONE ctermfg=Blue	     gui=bold guifg=blue
+hi Statement  cterm=bold ctermfg=Blue	     gui=NONE guifg=blue
+hi Type	      cterm=NONE ctermfg=Blue	     gui=NONE guifg=RoyalBlue3
+
+" ObjC - Xcode presentation colorscheme
+hi objcDirective cterm=NONE ctermfg=201 gui=NONE guifg=DarkMagenta
+hi cocoaFunction cterm=NONE ctermfg=201 gui=NONE guifg=#5C2699 
+hi cocoaClass cterm=NONE ctermfg=201 gui=NONE guifg=#5C2699 
+hi cocoaType cterm=NONE ctermfg=201 gui=NONE guifg=#5C2699 
 
 " vim: sw=2
