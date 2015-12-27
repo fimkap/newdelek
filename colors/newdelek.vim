@@ -41,6 +41,7 @@ hi SignColumn ctermbg=231 guibg=White
 
 " syntax highlighting
 hi Comment    cterm=NONE ctermfg=22     gui=italic guifg=SeaGreen4
+hi String     cterm=NONE ctermfg=9      gui=NONE guifg=DarkRed
 hi Constant   cterm=NONE ctermfg=201   guibg=White guifg=DarkGreen
 "hi Identifier cterm=NONE ctermfg=DarkCyan    gui=NONE guifg=cyan4
 hi Identifier cterm=NONE ctermfg=18    gui=NONE guifg=#000087
