@@ -24,10 +24,10 @@ hi LineNr     ctermfg=Brown	   guifg=Brown
 hi ModeMsg    cterm=bold	   gui=bold
 hi MoreMsg    ctermfg=DarkGreen    gui=bold guifg=SeaGreen
 hi NonText    ctermfg=Blue	   gui=bold guifg=gray guibg=white
-hi Pmenu      ctermfg=Black	   ctermbg=75  guifg=gray15  guibg=White
+hi Pmenu      ctermfg=240	   ctermbg=231  guifg=gray15  guibg=White
 hi PmenuSel   ctermfg=White	   ctermbg=DarkBlue  guifg=White  guibg=DarkBlue
 hi Question   ctermfg=DarkGreen    gui=bold guifg=SeaGreen
-hi Search     ctermfg=NONE	   ctermbg=Yellow guibg=#fcfcaa guifg=NONE
+hi Search     ctermfg=NONE	   ctermbg=230 guibg=#fcfcaa guifg=NONE
 hi SpecialKey ctermfg=DarkBlue	   guifg=Blue
 hi StatusLine cterm=bold	   ctermbg=White ctermfg=DarkBlue guibg=DarkBlue guifg=White
 hi StatusLineNC	cterm=bold	   ctermbg=White ctermfg=Blue  guibg=DarkBlue guifg=#fafafa
